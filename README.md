@@ -31,3 +31,7 @@ To start this tool, you have to run the following command:
 ```bash
 yarn start
 ```
+
+## Screenshot
+
+![image](https://user-images.githubusercontent.com/13586185/150664044-ca48176c-59c7-487a-b4fc-6466e2f5afa7.png)
