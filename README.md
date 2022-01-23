@@ -1,3 +1,5 @@
+![Node.js CI Workflow](https://github.com/github/docs/actions/workflows/node.js.yml/badge.svg)
+
 # Introduction
 
 This tool allows you to check certificates for expiration and validity.
