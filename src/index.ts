@@ -24,7 +24,8 @@ namespace EntryPoint {
                     day
                 )}${chalk.reset()}일이 남음`
             );
-            if (day < 30 && config.alertToSlack) {
+            const remainingDay = config.remainingDay;
+            if (day < remainingDay && config.alertToSlack) {
                 Slack.send(hostname, day.toString());
             }
         }
