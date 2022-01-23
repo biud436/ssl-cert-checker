@@ -1,4 +1,4 @@
-![Node.js CI Workflow](https://github.com/github/docs/actions/workflows/node.js.yml/badge.svg)
+![Node.js CI Workflow](https://github.com/biud436/ssl-cert-checker/actions/workflows/node.js.yml/badge.svg)
 
 # Introduction
 
