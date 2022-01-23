@@ -23,5 +23,7 @@ jobs:
             - run: yarn install
             - run: yarn start
             - name: Send Slack Message
+              env:
+                  SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
               run: |
                   curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' $SLACK_WEBHOOK_URL
