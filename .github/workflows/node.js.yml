@@ -26,4 +26,4 @@ jobs:
               env:
                   SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
               run: |
-                  curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' $SLACK_WEBHOOK_URL
+                  curl -X POST -H 'Content-type: application/json' --data '{"text":"build sucess!"}' $SLACK_WEBHOOK_URL
